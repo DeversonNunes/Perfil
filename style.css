@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: auto;
+    
+}
+.menu{
+    display:flex;
+    
+
+    
+}
+li{
+    padding-left: 10px;
+    padding: 10px;
+    list-style: none;
+}
+*{
+    margin:0;
+}
+
+input[type]{
+  border-radius: 5px;
+  
+  background-color:lawngreen;
+  
+    
+}
+.sobre{
+    background-color: lawngreen;
+    
+    
+    
+}
+header{
+    border: 1px solid rebeccapurple;
+    min-height: 400px;
+    margin: 30px;
+    background-color: #e1e2e3;
+    
+}
+.fa-yin-yang{
+    font-size: 25px;
+    color: darkblue;
+}
+h2{
+    color:rebeccapurple;
+
+}
+.fa-window-close{
+    color: aqua;
+}
+.a{
+    padding-left: 30px;
+    font-size: 10px;
+    margin-top: 90px;
+ 
+}
+h1:hover{
+    color: rebeccapurple;
+
+}
