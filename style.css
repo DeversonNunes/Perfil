@@ -17,6 +17,7 @@ li{
     padding-left: 10px;
     padding: 10px;
     list-style: none;
+
 }
 *{
     margin:0;
@@ -31,6 +32,8 @@ input[type]{
 }
 .sobre{
     background-color: lawngreen;
+    border: 2px solid;
+    border-radius: 5px;
     
     
     
@@ -38,7 +41,7 @@ input[type]{
 header{
     border: 1px solid rebeccapurple;
     min-height: 400px;
-    margin: 30px;
+    margin: 10px;
     background-color: #e1e2e3;
     
 }
