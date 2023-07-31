@@ -1,135 +1,49 @@
-header:hover{
-    border: 2px solid rebeccapurple;
-}
-
-.container{
+.container {
     display: flex;
-    align-items:flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin-top: auto;
-
-    
-}
-.menu{
-    display:flex;
-    
-    
-
-    
-}
-li{
-    padding-left: 10px;
-    padding: 10px;
-    list-style: none;
-
-}
-*{
-    margin:0;
-}
-
-input[type]{
-  border-radius: 5px;
-  
-  background-color:lawngreen;
-  
-    
-}
-.sobre{
-    background-color: lawngreen;
-    border: 2px solid;
-    border-radius: 5px;
-    
-    
-    
-}
-header{
-    
-    height: 250px;
-    margin: 10px;
-    background-color:aliceblue;
-    
-}
-.fa-yin-yang{
-    font-size: 25px;
-    color: darkblue;
-}
-h2{
-    color:rebeccapurple;
-    
-    
-
-}
-.fa-window-close{
-    color: aqua
-    
-
-}
-.a{
-    padding-left: 30px;
-    font-size: 10px;
-    margin-top:;
- 
-}
-h1:hover{
-    color: rebeccapurple;
-    
-
-}
-main{
-  margin-left: 500px;
-  
-   
-}
-.containers{
-  background-color: aliceblue;
-  width: 200px;
-  height: 300px;
-  padding-left: 50px;
-  /* display:flex;
-  justify-content:center ;
-   border: 1px solid;
-   width: 170px;
-   height: 280px;
-    */
-}
-h1{
-  margin-left: 8px;
-}
-.b{
-    margin-left: 500px;
-    
-   font-size: 10px;
-  
-}
- li{
-  display: flex;
-  
-}
-
-body{
-    background-color: #e1e2e3;
-    
-}
-.dsobre{
-    border: 1px solid;
-    width: 50px;
-    height: 10px;
-    display: flex;
+    justify-content: flex-end;
+    height: 400px;
     flex-direction: column;
-    justify-content: center;
-    background-color: lawngreen;
-    
-    
+    text-align: center;
+    margin-top: auto;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 50px;
+
 }
-.t{
-    margin: 10px;
-}
-.b{
-    
-}
-main:hover{
-    border: 2px solid rebeccapurple;
+.cabecalho {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    border: 1px solid beige;
+    border-radius:5px;
+    padding:20px;
 }
 
+div {
+    display: flex;
+    padding-inline: 35px;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+header {
+    background-color: #e1e2e3;
+    border-radius: 8px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 20px;
+}
+header:hover{
+    border: 2px solid #e1e2e3;
+}
